@@ -73,10 +73,12 @@ p {
     margin-left: 20px;
 }
 
+
+/* Clear:Both was not needed since it did not effect styling. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
-    clear: both;
+    /* clear: both; */
     float: right;
     width: 20%;
     height: 100%;
@@ -84,7 +86,9 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Noticed repeating code. Combined into one class  */
+
+/* .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -97,14 +101,16 @@ p {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}
+} */
 
-.benefit-lead h3 {
+
+/* Noticed repeating code. Combined into one section  */
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+/* .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -112,15 +118,17 @@ p {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+} */
 
-.benefit-lead img {
+
+/* Noticed repeating code. Combined into one section  */
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
+/* .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -130,9 +138,12 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} */
 
-.search-engine-optimization {
+
+/* Changed class to features and condensed. */
+
+.features{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -141,7 +152,7 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+/* .features {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -150,33 +161,36 @@ p {
     color: #ffffff;
 }
 
-.social-media-marketing {
+.features {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
-}
+    color: #ffffff; 
+} */
 
-.search-engine-optimization img {
+
+/* Changed class to features and condensed. */
+
+.features img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
+/* .online-reputation-management img {
     max-height: 200px;
 }
 
 .social-media-marketing img {
     max-height: 200px;
-}
+} */
 
-.search-engine-optimization h2 {
+ h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
+/* .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -184,7 +198,7 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
 .footer {
     padding: 30px;
